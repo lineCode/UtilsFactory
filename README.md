@@ -6,7 +6,7 @@ Description：Android Utils Factory ,include HttpUtils、DeviceParamCheckerUtils
 
 ## 02、About Fragment （碎片相关）
 
-## 03、About App （应用相关）
+## 03、About Application （应用相关）
 
 ## 04、About Device （硬件相关）
 
