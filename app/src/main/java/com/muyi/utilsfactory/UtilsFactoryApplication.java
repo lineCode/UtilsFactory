@@ -11,10 +11,16 @@ import android.content.Context;
 public class UtilsFactoryApplication extends Application {
 
     public Context mContext;
+    private static UtilsFactoryApplication utilsInstance;
 
     @Override
     public void onCreate() {
         super.onCreate();
         mContext = this;
+        utilsInstance = this;
+    }
+
+    public static UtilsFactoryApplication getInstance(){
+        return utilsInstance ;
     }
 }
