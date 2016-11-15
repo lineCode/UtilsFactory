@@ -42,13 +42,13 @@ public class LogToolActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_generateLogFile:
-                if (mTvTextDisplay.getText().equals("文本展示")) {
+                if (mTvTextDisplay.getText().equals(this.getResources().getString(R.string.text_display))) {
                     LogCatchUtils logCatchUtils = new LogCatchUtils(this, null);
                     logCatchUtils.startSaveLog();
                     Log.e("Miuky", "测试日志抓取并写入本地文件");
-                    mTvTextDisplay.setText("Gen file local path：\nAndroid/data/com.muyi.utilsfactory/log/DATE.log");
+                    mTvTextDisplay.setText(this.getResources().getString(R.string.generate_file_path)+"\nAndroid/data/com.muyi.utilsfactory/log/DATE.log");
                 } else {
-                    mTvTextDisplay.setText("You have generated local log file!");
+                    mTvTextDisplay.setText(this.getResources().getString(R.string.generated_log));
                 }
                 break;
         }

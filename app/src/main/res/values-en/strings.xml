@@ -1,37 +1,37 @@
 <resources>
-    <!--应用名称-->
-    <string name="app_name">Android工具代码集合</string>
+    <!--Application Name-->
+    <string name="app_name">Android Tool Code Collection</string>
     
     <string name="layout_main_textView">Content:Text Display!!!</string>
 
     <!--ActionBar-->
-    <string name="action_about">关于</string>
+    <string name="action_about">About</string>
 
     <!--MainActivity-->
     <string name="item_name_00">Activity</string>
     <string name="item_name_01">Fragment</string>
     <string name="item_name_02">Application</string>
-    <string name="item_name_03">硬件设备</string>
-    <string name="item_name_04">数据存储</string>
-    <string name="item_name_05">编码安全</string>
-    <string name="item_name_06">数值转换</string>
-    <string name="item_name_07">网络</string>
-    <string name="item_name_08">图片</string>
-    <string name="item_name_09">文本</string>
-    <string name="item_name_10">通知</string>
-    <string name="item_name_11">日志工具</string>
-    <string name="item_name_12">日期</string>
-    <string name="item_name_13">定位</string>
-    <string name="item_name_14">5.0以上权限获取</string>
-    <string name="item_name_15">ViewGroup和Adapter</string>
-    <string name="item_name_16">自定义控件</string>
-    <string name="item_name_17">键盘输入</string>
-    <string name="item_name_18">屏幕参数和适配</string>
-    <string name="item_name_19">线程</string>
-    <string name="item_name_20">相机</string>
+    <string name="item_name_03">Device</string>
+    <string name="item_name_04">Data Save</string>
+    <string name="item_name_05">Code Security</string>
+    <string name="item_name_06">Value Translate</string>
+    <string name="item_name_07">Network</string>
+    <string name="item_name_08">Image</string>
+    <string name="item_name_09">Text</string>
+    <string name="item_name_10">Notification</string>
+    <string name="item_name_11">Log Tool</string>
+    <string name="item_name_12">Date</string>
+    <string name="item_name_13">Location</string>
+    <string name="item_name_14">Get Permissions Above Android5.0</string>
+    <string name="item_name_15">ViewGroup And Adapter</string>
+    <string name="item_name_16">Custom Widget</string>
+    <string name="item_name_17">Keyboard Input</string>
+    <string name="item_name_18">Screen Param And Adaption</string>
+    <string name="item_name_19">Thread</string>
+    <string name="item_name_20">Camera</string>
 
-    <string name="item_introduce_00">包含了BaseActivity工具类以及一些遇见过的问题总结；</string>
-    <string name="item_introduce_01">包含了BaseFragemnt工具类以及一些遇见过的问题总结； </string>
+    <string name="item_introduce_00">Include BaseActivity tool class and some problems before meet;</string>
+    <string name="item_introduce_01">Include FragmentActivity tool class and some problems before meet; </string>
     <string name="item_introduce_02">包含了继承了Application的自定义application工具类；</string>
     <string name="item_introduce_03">包含了各种硬件参数读取的工具代码；</string>
     <string name="item_introduce_04">包含了几种常见的数据存储方式的工具类代码，比如：SP、SQLite等；</string>
@@ -52,10 +52,10 @@
     <string name="item_introduce_19">包含了线程池和线程管理工具类代码；</string>
     <string name="item_introduce_20">包含了Camera1.0、Camera2.0使用的示例代码以及抽取的相关工具类方法代码；</string>
 
-    <string name="introduction">内容介绍：</string>
+    <string name="introduction">Introduction：</string>
 
     <!--LogToolActivity-->
-    <string name="text_display">文本显示</string>
-    <string name="generate_file_path">生成文件的本地路径是：</string>
-    <string name="generated_log">您已经生成过log本地文件了！</string>
+    <string name="text_display">Text Display</string>
+    <string name="generate_file_path">Gen file local path：</string>
+    <string name="generated_log">You have generated local log file！</string>
 </resources>

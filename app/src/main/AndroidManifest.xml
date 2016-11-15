@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity.LogToolActivity"/>
+        <activity android:name=".Activity.TextActivity"/>
     </application>
 
 </manifest>
