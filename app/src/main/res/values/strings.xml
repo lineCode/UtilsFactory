@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">UtilsFactory</string>
+    <string name="app_name">Android工具代码集合</string>
+    
+    <string name="layout_main_textView">Content:Text Display!!!</string>
 </resources>

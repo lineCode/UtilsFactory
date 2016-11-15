@@ -26,9 +26,10 @@ public class LogCatchUtils {
 
     /**
      * 获取日志抓取实体对象
+     * Catch log and get entity object
      *
      * @param context
-     * @param path    log日志保存路径
+     * @param path    log日志保存路径/log save path
      * @return
      */
     public LogCatchUtils getInstance(Context context, String path) {
@@ -41,14 +42,18 @@ public class LogCatchUtils {
     /**
      * 该类的构造方法
      * 判断文件保存的路径是否存在的逻辑处理
+     * This class's constructor method
+     * Judge file save path is exist or not exist
      *
      * @param context
-     * @param path    log日志文件保存路径
+     * @param path    log日志文件保存路径/Log file save path
      */
     public LogCatchUtils(Context context, String path) {
         appid = android.os.Process.myPid();
         if (TextUtils.isEmpty(path)) {
-            dirPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "Android" + File.separator + "data" + File.separator + context.getPackageName();
+            dirPath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator
+                    + "Android" + File.separator + "data" + File.separator + context.getPackageName()
+                    + File.separator + "log";
         } else {
             dirPath = path;
         }
@@ -60,6 +65,7 @@ public class LogCatchUtils {
 
     /**
      * 启动保存日志的线程
+     * start save log thread
      */
     public void startSaveLog() {
         if (logThread == null) {
@@ -69,10 +75,15 @@ public class LogCatchUtils {
     }
 
     /**
-     *  线程运行
-     *  01 判断目录结构是否存在；
-     *  02 存在则创建文件并写入日志内容；
-     *  03 不存在则创建目录和文件并写入日志内容；
+     * 线程运行
+     * 01 判断目录结构是否存在；
+     * 02 存在则创建文件并写入日志内容；
+     * 03 不存在则创建目录和文件并写入日志内容；
+     *
+     * Thread running
+     * 01 Jude directory structure is/not exist;
+     * 02 If exist, create file object and write content to log file;
+     * 03 If not, create directory structure and file object ,and then write content to log file.
      */
     private class LogRunnable implements Runnable {
 
@@ -97,6 +108,7 @@ public class LogCatchUtils {
 
         /**
          * 写入日志内容
+         * Write log content to local file
          */
         @Override
         public void run() {
@@ -138,6 +150,7 @@ public class LogCatchUtils {
 
     /**
      * 日期格式化工具方法
+     * Format date tool method
      */
     @SuppressLint("SimpleDateFormat")
     private static class FormatDate {
