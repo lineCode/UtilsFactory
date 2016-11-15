@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:text="##  使用了文本对齐的文本  ##"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <com.muyi.utilsfactory.TextUtils.JustifyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e89999"
+                android:text="        Android 7.0是谷歌推出的智能手机操作系统，最终官方代号，定名为“Nougat”（牛轧糖）。谷歌2016年的I/O开发者大会在美西时间2016年5月18-20日召开，地点为山景城的Shoreline Ampitheatre圆形剧场，新版的Android N系统正式发布。[1] 在安卓7.0中，下拉打开通知栏顶部即可显示5个用户常用的快捷开关，支持单击开关以及长按进入对应设置。如果继续下拉通知栏即可显示全部快捷开关，此外在快捷开关页右下角也会显示一个“编辑”按钮，点击之后即可自定义添加/删除快捷开关，或拖动进行排序。" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:text="##  没有使用文本对齐的文本  ##"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#6ac5cf"
+                android:text="        Android 7.0是谷歌推出的智能手机操作系统，最终官方代号，定名为“Nougat”（牛轧糖）。谷歌2016年的I/O开发者大会在美西时间2016年5月18-20日召开，地点为山景城的Shoreline Ampitheatre圆形剧场，新版的Android N系统正式发布。[1] 在安卓7.0中，下拉打开通知栏顶部即可显示5个用户常用的快捷开关，支持单击开关以及长按进入对应设置。如果继续下拉通知栏即可显示全部快捷开关，此外在快捷开关页右下角也会显示一个“编辑”按钮，点击之后即可自定义添加/删除快捷开关，或拖动进行排序。" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
