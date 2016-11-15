@@ -8,11 +8,11 @@
         android:id="@+id/tv_item_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="6dp"
+        android:layout_marginTop="16dp"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
         android:text="01、日志工具"
-        android:textColor="#000"
+        android:textColor="#333"
         android:textSize="18sp" />
 
     <TextView
@@ -20,10 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingEnd="16dp"
-        android:paddingStart="52dp"
-        android:layout_marginBottom="2dp"
+        android:paddingStart="16dp"
+        android:layout_marginBottom="16dp"
         android:text="包含了日志生成、日志筛选、日志打印优化等工具类"
-        android:textColor="#000"
+        android:textColor="#666"
         android:textSize="16sp" />
 
 </LinearLayout>
