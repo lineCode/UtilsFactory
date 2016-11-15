@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     MainActivity.this.getResources().getString(R.string.item_introduce_17),
                     MainActivity.this.getResources().getString(R.string.item_introduce_18),
                     MainActivity.this.getResources().getString(R.string.item_introduce_19),
-                    MainActivity.this.getResources().getString(R.string.item_introduce_21),
+                    MainActivity.this.getResources().getString(R.string.item_introduce_20),
 
 
             };
