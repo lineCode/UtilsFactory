@@ -31,7 +31,7 @@
     <string name="item_name_20">相机</string>
 
     <string name="item_introduce_00">包含了BaseActivity工具类以及一些遇见过的问题总结；</string>
-    <string name="item_introduce_01">包含了BaseFragemnt工具类以及一些遇见过的问题总结； </string>
+    <string name="item_introduce_01">包含了BaseFragment工具类以及一些遇见过的问题总结； </string>
     <string name="item_introduce_02">包含了继承了Application的自定义application工具类；</string>
     <string name="item_introduce_03">包含了各种硬件参数读取的工具代码；</string>
     <string name="item_introduce_04">包含了几种常见的数据存储方式的工具类代码，比如：SP、SQLite等；</string>

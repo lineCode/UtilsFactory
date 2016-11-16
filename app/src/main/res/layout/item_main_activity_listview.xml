@@ -15,13 +15,15 @@
         android:textColor="#333"
         android:textSize="18sp" />
 
-    <TextView
+    <com.muyi.utilsfactory.TextUtils.JustifyTextView
         android:id="@+id/tv_introduceInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:text="包含了日志生成、日志筛选、日志打印优化等工具类"
         android:textColor="#666"
         android:textSize="16sp" />

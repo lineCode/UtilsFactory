@@ -32,25 +32,25 @@
 
     <string name="item_introduce_00">Include BaseActivity tool class and some problems before meet;</string>
     <string name="item_introduce_01">Include FragmentActivity tool class and some problems before meet; </string>
-    <string name="item_introduce_02">包含了继承了Application的自定义application工具类；</string>
-    <string name="item_introduce_03">包含了各种硬件参数读取的工具代码；</string>
-    <string name="item_introduce_04">包含了几种常见的数据存储方式的工具类代码，比如：SP、SQLite等；</string>
-    <string name="item_introduce_05">包含了相关数据加密解密的方法以及基本知识的介绍；</string>
-    <string name="item_introduce_06">包含了在开发过程中遇到的常见数值类型、单位等互相转换的工具类代码；</string>
-    <string name="item_introduce_07">网络请求的基本封装以及json数据的解析工具类代码；</string>
-    <string name="item_introduce_08">包含了图片的裁剪、旋转、基本动画、Gif图片播放等相关工具代码；</string>
-    <string name="item_introduce_09">包含了对文本（TextView）排版、字体设置的工具类代码；</string>
-    <string name="item_introduce_10">包含了吐司（Toast）、Dialog等工具类代码以及使用的方法介绍；</string>
-    <string name="item_introduce_11">包含了日志生成、日志筛选、日志打印优化等工具类；</string>
-    <string name="item_introduce_12">包含了多种格式的日期或时间的格式化工具类；</string>
-    <string name="item_introduce_13">包含使用设备自带GPS、Google地图、高德地图、百度地图基本的定位功能工具类以及使用方法介绍；</string>
-    <string name="item_introduce_14">包含了Android5.0以后的应用首次打开的检测和获取权限相关工具类代码；</string>
-    <string name="item_introduce_15">包含了趋向万能的Adapter、多种重写的Layout基类等工具类代码；</string>
-    <string name="item_introduce_16">包含了Button等多种控件的自定义工具类代码；</string>
-    <string name="item_introduce_17">包含了键盘在使用时遇到的隐藏、显示、遮挡问题解决方法代码；</string>
-    <string name="item_introduce_18">包含了获取屏幕的多种参数和不同屏幕不同分辨率下的适配问题解决方法代码；</string>
-    <string name="item_introduce_19">包含了线程池和线程管理工具类代码；</string>
-    <string name="item_introduce_20">包含了Camera1.0、Camera2.0使用的示例代码以及抽取的相关工具类方法代码；</string>
+    <string name="item_introduce_02">Include custom application tool class which extended Application;</string>
+    <string name="item_introduce_03">Include read device multi parameters;</string>
+    <string name="item_introduce_04">Include data save types what we often see, Example:SP、SQLite etc.</string>
+    <string name="item_introduce_05">Include data encrypt and decrypt tool code;</string>
+    <string name="item_introduce_06">Include value different properties translate each other; </string>
+    <string name="item_introduce_07">Include encapsulation of internet requests and Json data analysis tool class code;</string>
+    <string name="item_introduce_08">Contains the image of the crop, rotation, basic animation, Gif picture player and other related tools code.</string>
+    <string name="item_introduce_09">Contains text (TextView) typesetting, font settings tool class code;</string>
+    <string name="item_introduce_10">Include contains toast (Toast), Dialog tools such as code and the use of the method described;</string>
+    <string name="item_introduce_11">Including the log content to save to local files, log filtering, log printing optimization tools such as class;</string>
+    <string name="item_introduce_12">Contains a variety of formats of date formatting tools.</string>
+    <string name="item_introduce_13">Including the use of equipment comes with GPS, Google Maps, Tak map, Baidu map basic positioning tools and the use of methods described;</string>
+    <string name="item_introduce_14">Contains Android5.0 after the first application to open the detection and access permissions related to tool type code;</string>
+    <string name="item_introduce_15">Include contains a universal adapter, a variety of rewrite the Layout base class tools such as code;</string>
+    <string name="item_introduce_16">Contains Button and other controls of the custom tool class code;</string>
+    <string name="item_introduce_17">Contains the keyboard in use encountered hidden, display, occlusion problem solution code;</string>
+    <string name="item_introduce_18">Include how to get multi parameters of phone screen and different screens、resolutions adaption codes instructions;</string>
+    <string name="item_introduce_19">Include thread pool and thread manager tool class code;</string>
+    <string name="item_introduce_20">Include Camera1.0、Camera2.0 example、some tool class codes 、custom camera code and some documents about how to use these code to our develop; </string>
 
     <string name="introduction">Introduction：</string>
 

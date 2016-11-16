@@ -269,7 +269,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 holder = (ViewHolder) convertView.getTag();
             }
             holder.title.setText(position + 1 + "、" + listItemNames.get(position).get("title").toString());
-            holder.introduction.setText(getResources().getString(R.string.introduction)+"\n        " + listItemNames.get(position).get("introduce").toString());
+            holder.introduction.setText(getResources().getString(R.string.introduction)+"\n" + listItemNames.get(position).get("introduce").toString());
             return convertView;
         }
     }
